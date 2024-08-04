@@ -7,9 +7,11 @@
 
 body{
     background-image: url(https://i.pinimg.com/originals/3a/f9/15/3af9153275f9ed5747718598c870904f.jpg);
+    background-blend-mode:darken ;
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 header{
@@ -24,8 +26,29 @@ header{
 #logo{
     font-size: 30px;
     font-weight: bold;
-    color: white;
+    color: #73F64b;
     letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+#search input{
+    color: #66da42;
+    font-size: 20px;
+    padding: 0 10px 0 20px;
+    border-radius: 25px;
+    border: solid;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#search input:focus{
+    width: 300px;
+}
+
+#search i{
+    position: absolute;
+    color: rgb(192, 181, 181);
+    top: 30px;
+    right: 480px;
     cursor: pointer;
 }
 
@@ -36,12 +59,52 @@ header{
 }
 
 a{
-    color: white;
+    color:#73F64b;
     text-decoration: none;
+    font-size: 20px;
     
 }
 
-#nav li a:hover{
-    text-decoration: underline;
+.location{
+    border: none;
+    border-radius: 7px;
+    appearance: none;
+    padding: 0 5px 0 20px;
+    width: 100%;
+    color: #73F64b;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+}
 
+.location .select-icon{
+    color:#73F64b;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-icon i{
+    font-size: 15px;
+}
+
+
+.heading{
+    margin: 80px;
+}
+
+.heading h1{
+    color: #73F64b;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 300px;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+.heading p{
+    color: #73F64b;
+    font-size: 30px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 12px;
 }
