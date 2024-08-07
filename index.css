@@ -12,7 +12,7 @@ header{
     position: relative;
     background-size: cover;
     background-position: center center;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 nav{
@@ -50,7 +50,7 @@ nav{
     position: absolute;
     color: rgb(192, 181, 181);
     top: 22px;
-    right: 480px;
+    right: 490px;
     cursor: pointer;
 }
 
@@ -135,8 +135,7 @@ nav{
 .top-artists{
     background-color:black;
     width: 100%;
-    height: 100vh;
-
+    height: 900px;
 }
 
 .top-artists h1{
@@ -197,4 +196,26 @@ nav{
     background-color: black;
     color: #73F64b;
     border-color: black;
+}
+
+.recent-events{
+    background-color:black;
+    width: 100%;
+    height: 900px;
+}
+
+.recent-events h1{
+    color: #73F64b;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 30px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+
+.recent-events p{
+    padding-left: 32px;
+    color: white;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace
 }
