@@ -21,7 +21,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 25px 10%;
 }
 
 #logo{
@@ -80,15 +80,56 @@ nav{
 .location .select-icon{
     color:white;
     height: 100%;
+    top: 20px;
+    right: 25px;
     position: absolute;
     align-items: center;
     justify-content: center;
 }
 
 .select-icon i{
-    font-size: 15px;
+    font-size: 16px;
 }
 
+ul{ 
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li ul.dropdown a:hover{
+    background-color: white;
+    color: black;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
 
 .heading{
     margin: 80px;
