@@ -213,9 +213,11 @@ ul li:hover ul.dropdown{
     background-color:#73F64b;
 }
 
-.card-title{
+.card-body h5{
+    color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 2px;
+    font-size: 20px;
 }
 
 .card-body .card-text{
@@ -231,6 +233,7 @@ ul li:hover ul.dropdown{
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-top: 15px;
 }
 
 .card-body .btn:hover{
