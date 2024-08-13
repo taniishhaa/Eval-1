@@ -203,28 +203,30 @@ ul li:hover ul.dropdown{
     align-items: center;
     margin: auto;
     top: 60px;
+    border-color:white;
+    border-radius: 0%;
 }
 
-.card img{
+.top-artists .card img{
     height: 300px;
 }
 
-.card-body{
+.top-artists .card-body{
     background-color:#73F64b;
 }
 
-.card-body h5{
+.top-artists .card-body h5{
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 2px;
     font-size: 20px;
 }
 
-.card-body .card-text{
+.top-artists .card-body .card-text{
     color: black;
 }
 
-.card-body .btn {
+.top-artists .card-body .btn {
     background-color:#73F64b;
     border-color: black;
     color: black;
@@ -236,7 +238,7 @@ ul li:hover ul.dropdown{
     margin-top: 15px;
 }
 
-.card-body .btn:hover{
+.top-artists .card-body .btn:hover{
     background-color: black;
     color: #73F64b;
     border-color: black;
@@ -262,4 +264,53 @@ ul li:hover ul.dropdown{
     color: white;
     font-size: 20px;
     font-family:'Courier New', Courier, monospace
+}
+
+.recent-events .card{
+    height: 600px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 60px;
+    border-color:white;
+    border-radius: 0%;
+}
+
+.recent-events .card img{
+    height: 300px;
+}
+
+.recent-events .card-body{
+    background-color:#73F64b;
+}
+
+.recent-events .card-body h5{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.recent-events .card-body .card-text{
+    color: black;
+}
+
+.recent-events .card-body .btn {
+    background-color:#73F64b;
+    border-color: black;
+    color: black;
+    border-radius: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.recent-events .card-body .btn:hover{
+    background-color: black;
+    color: #73F64b;
+    border-color: black;
 }
