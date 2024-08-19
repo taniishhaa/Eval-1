@@ -306,7 +306,7 @@ ul li:hover ul.dropdown{
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 35px;
 }
 
 .recent-events .card-body .btn:hover{
@@ -314,3 +314,4 @@ ul li:hover ul.dropdown{
     color: #73F64b;
     border-color: black;
 }
+
