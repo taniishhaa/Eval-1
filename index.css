@@ -32,28 +32,6 @@ nav{
     cursor: pointer;
 }
 
-#search input{
-    color: white;
-    font-size: 20px;
-    padding: 0 10px 0 20px;
-    border-radius: 25px;
-    border: solid;
-    background-color: rgba(0, 0, 0, 0);
-}
-
-#search input:focus{
-    width: 300px;
-    color: #73F64b;
-}
-
-#search i{
-    position: absolute;
-    color: rgb(192, 181, 181);
-    top: 22px;
-    right: 490px;
-    cursor: pointer;
-}
-
 #nav li{
     display: inline-block;
     list-style: none;
@@ -205,6 +183,12 @@ ul li:hover ul.dropdown{
     top: 60px;
     border-color:white;
     border-radius: 0%;
+    transition: 1s;
+}
+
+.top-artists .card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .top-artists .card img{
@@ -276,6 +260,12 @@ ul li:hover ul.dropdown{
     top: 60px;
     border-color:white;
     border-radius: 0%;
+    transition: 1s;
+}
+
+.recent-events .card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .recent-events .card img{
@@ -315,3 +305,43 @@ ul li:hover ul.dropdown{
     border-color: black;
 }
 
+.gallery{
+    background-color: black;
+}
+
+.gallery .g-photos{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery h1{
+    color: #73F64b;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 40px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+
+.gallery p{
+    padding-left: 40px;
+    color: white;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace
+}
+
+.gallery img{
+    height: 748px;
+    width: 749px;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 50px;
+    transition: 0.5s;
+}
+
+.gallery img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
