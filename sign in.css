@@ -1,0 +1,76 @@
+body{
+    padding:0px;
+    margin: 0px;
+}
+
+#body-background{
+    height: 100vh;
+    width: 100%;
+    color: lawngreen;
+    background-image: url("./image/concert.png");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+     /* z-index: -1; */
+   /* filter: blur(1px); */
+  
+    
+    
+}
+
+.logo{
+    height: 100px;
+    width:100px;
+    background-image: url('../tunefest_logo_-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-left: 565px;
+    /* margin-top: 75px; */
+    /* border:1px solid pink; */
+}
+
+
+
+.input-Field{
+
+    height: 45px;
+    width: 250px;
+    border: 1px solid white;
+    color:lawngreen ;
+    background-color: transparent;
+    margin-top: 25px;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+
+.password-field{
+    height: 45px;
+    width: 250px;
+    border: 1px solid white;
+    color:lawngreen ;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+
+
+.button-Signin{
+    height: 40px;
+    width:200px;
+    color:lawngreen ;
+    background-color: transparent;
+    border:1px solid lawngreen;
+    border-radius: 50px;
+}
+
+.button-Signin:hover{
+    color:white ;
+    background-color: lawngreen;
+    border:1px solid white;
+}
+
+.button-div{
+    margin-top: 15px;
+    margin-left: 525px;
+}
+
