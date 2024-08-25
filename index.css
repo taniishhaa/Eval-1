@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -76,17 +78,17 @@ nav{
     font-size: 16px;
 }
 
-ul{ 
+nav ul{ 
     list-style: none;
     background: rgba(0, 0, 0, 0);
 }
 
-ul li{
+nav ul li{
     display: inline-block;
     position: relative;
 }
 
-ul li a{
+nav ul li a{
     display: block;
     padding: 20px 25px;
     color: #FFFFFF;
@@ -95,11 +97,11 @@ ul li a{
     font-size: 20px;
 }
 
-ul li ul.dropdown li{
+nav ul li ul.dropdown li{
     display: block;
 }
 
-ul li ul.dropdown{
+nav ul li ul.dropdown{
     width: 100%;
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
@@ -107,12 +109,12 @@ ul li ul.dropdown{
     display: none;
 }
 
-ul li ul.dropdown a:hover{
+nav ul li ul.dropdown a:hover{
     background-color: #FFFFFF;
     color: black;
 }
 
-ul li:hover ul.dropdown{
+nav ul li:hover ul.dropdown{
     display: block;
 }
 
@@ -154,7 +156,7 @@ ul li:hover ul.dropdown{
 
 .divider{
     width: 100%;
-    height: 20px;
+    height: 5px;
 }
 
 
@@ -163,7 +165,7 @@ ul li:hover ul.dropdown{
     width: 100%;
     height: 900px;
     position: sticky;
-    top: 0px;
+    top: 0;
 }
 
 .top-artists h1{
@@ -357,4 +359,75 @@ ul li:hover ul.dropdown{
 .gallery img:hover{
     cursor: pointer;
     transform: scale(1.1);
+}
+
+.foot{
+    background-color:black;
+    padding: 70px 0;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.in-box{
+    max-width: 1170px;
+    background-color: black;
+    margin: auto;
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col h4{
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffffae;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 5px;
+    margin-right: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+    background-color: #FFFFFF;
+    color: black;
+    scale: 1.3;
 }
