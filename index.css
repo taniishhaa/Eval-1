@@ -165,7 +165,7 @@ nav ul li:hover ul.dropdown{
     width: 100%;
     height: 900px;
     position: sticky;
-    top: 0;
+    top: 75px;
 }
 
 .top-artists h1{
@@ -244,7 +244,7 @@ nav ul li:hover ul.dropdown{
     width: 100%;
     height: 900px;
     position: sticky;
-    top: 0;
+    top: 75px;
 }
 
 .recent-events h1{
@@ -321,7 +321,7 @@ nav ul li:hover ul.dropdown{
 .gallery{
     background-color: black;
     position: sticky;
-    top: 0;
+    top: 75px;
 }
 
 .gallery .g-photos{
@@ -361,13 +361,37 @@ nav ul li:hover ul.dropdown{
     transform: scale(1.1);
 }
 
+.back-to-top{
+    height: 25px;
+    background:#21680b;
+    position: sticky;
+    top: 75px;
+}
+
+.back-to-top a{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.back-to-top a:hover{
+    scale: 1.2;
+}
+
 .foot{
     background-color:black;
     padding: 70px 0;
     line-height: 1.5;
     font-family: "Poppins", sans-serif;
     position: sticky;
-    top: 0;
+    top: 75px;
 }
 
 .in-box{
