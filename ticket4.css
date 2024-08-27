@@ -1,0 +1,64 @@
+*{
+    background-color: black;
+}
+
+#t2{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+#event-description{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 50px;
+    font-family: serif
+}
+
+button{
+    color: white;
+    font-size: 20px;
+    border-color: white;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tim-loc{
+    margin-left: 300px;
+
+}
+
+#time-loc{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 50;
+    font-stretch: 100%;
+    
+}
+
+#about{
+    margin-left: 300px;
+
+
+}
+
+
+#ate{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 50;
+    font-stretch: 100%;
+}
+
+#id1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 50;
+    font-stretch: 100%;
+
+}
