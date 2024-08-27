@@ -13,7 +13,7 @@
     padding-left: 300px;
     padding-right: 300px;
     padding-bottom: 50px;
-    font-family: serif
+    font-family: 'Times New Roman', Times, serif;
 }
 
 button{
@@ -60,5 +60,36 @@ button{
     font-size: 20px;
     font-weight: 50;
     font-stretch: 100%;
+
+}
+
+#id2{
+    margin-right: 100px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#ticket{
+    margin-left: 300px;
+}
+
+#tick{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 50;
+    font-stretch: 100%;
+}
+
+#c1{
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+#c2{
+    margin-left: 20px;
+    margin-right: 100px;
 
 }
