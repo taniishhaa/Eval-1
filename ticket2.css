@@ -93,3 +93,13 @@ button{
     margin-right: 100px;
 
 }
+
+#img{
+    height: 500px;
+    width: 80%;
+    background-image: url('./bangr.jfif');
+    margin-top: 60px;
+    margin-left: 33%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
