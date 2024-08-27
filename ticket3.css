@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.heading{
+    background-color: black;
+    padding-top: 100px;
+}
+
+.heading p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.heading h1{
+    color: #73F64b;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
