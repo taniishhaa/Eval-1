@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    background-color: black;
+    color: #ffffff;
+}
+
+.heading p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#head{
+    padding-top: 200px;
+}
+
+#desc{
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 40px;
+}
+
+.heading h1{
+    color: #73F64b;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding-top: 5px;
+}
+
+.ticket{
+    border-radius: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#tickets{
+    width: 180px;
+    height: 55px;
+    border-radius: 0%;
+    letter-spacing: 2px;
+}
+
+.ticket a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.ticket a:hover{
+    color: black;
+}
