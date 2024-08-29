@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-.heading{
+.main{
     background-color: black;
     color: #ffffff;
 }
 
-.heading p{
+.main p{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 18px;
@@ -24,9 +24,10 @@
     padding-left: 400px;
     padding-right: 400px;
     padding-top: 40px;
+    font-size: 20px;
 }
 
-.heading h1{
+.main h1{
     color: #73F64b;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -57,6 +58,33 @@
     color: #ffffff;
 }
 
-.ticket a:hover{
-    color: black;
+img{
+    display: flex;
+    margin: auto;
+    width: 705px;
+    padding-bottom: 50px;
+}
+
+.below{
+    background-color: black;
+    color: #ffffff;
+    padding-bottom: 100px;
+}
+
+.below h1{
+    padding-left: 485px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    padding-top: 5px;
+}
+
+.below p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-left: 485px;
+}
+
+#desc1{
+    padding-right: 400px;
 }
