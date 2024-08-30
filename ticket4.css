@@ -1,89 +1,91 @@
+
 *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
     background-color: black;
+    color: #ffffff;
 }
 
-#t2{
+.main p{
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    color: white;
-    margin-top: 150px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
-#event-description{
+#head{
+    padding-top: 200px;
+}
+
+#desc{
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.main h1{
+    color: #73F64b;
     text-align: center;
-    padding-left: 300px;
-    padding-right: 300px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding-top: 5px;
+}
+
+.ticket{
+    border-radius: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#tickets{
+    width: 180px;
+    height: 55px;
+    border-radius: 0%;
+    letter-spacing: 2px;
+}
+
+.ticket a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+img{
+    display: flex;
+    margin: auto;
+    width: 705px;
     padding-bottom: 50px;
-    font-family: serif
 }
 
-button{
-    color: white;
+.below{
+    background-color: black;
+    color: #ffffff;
+    padding-bottom: 100px;
+}
+
+.below h1{
+    padding-left: 485px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    padding-top: 5px;
+}
+
+.below p{
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    border-color: white;
-    padding: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    padding-left: 485px;
 }
 
-#tim-loc{
-    margin-left: 300px;
-
-}
-
-#time-loc{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: left;
-    font-size: 30px;
-    font-weight: 50;
-    font-stretch: 100%;
-    
-}
-
-#about{
-    margin-left: 300px;
-
-
-}
-
-
-#ate{
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: left;
-    font-size: 30px;
-    font-weight: 50;
-    font-stretch: 100%;
-}
-
-#id1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
-    font-size: 20px;
-    font-weight: 50;
-    font-stretch: 100%;
-
-}
-
-#ticket{
-    margin-left: 300px;
-}
-
-#tick{
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: left;
-    font-size: 30px;
-    font-weight: 50;
-    font-stretch: 100%;
-}
-
-#c1{
-    margin-left: 20px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-}
-
-#c2{
-    margin-left: 20px;
-    margin-right: 100px;
-
+#desc1{
+    padding-right: 400px;
 }
