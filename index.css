@@ -8,7 +8,7 @@
 }
 
 html{
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -29,16 +29,19 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 10%;
+    padding: 5px 10%;
 }
 
 #logo{
     height: 170px;
     width:170px;
-    background-image: url(./images/logo.png);
-    background-repeat: no-repeat;
-    background-size:contain;
     margin-top: 40px;
+    transition: all 0.3s ease-in;
+}
+
+#logo:hover{
+    scale: 1.1;
+    cursor: pointer;;
 }
 
 #nav li{
@@ -51,6 +54,12 @@ nav{
     color:#FFFFFF;
     text-decoration: none;
     font-size: 20px;
+    transition: all 0.2s ease-in;
+}
+
+#sign-in:hover{
+    color: #73F64b;
+    scale: 1.1;
 }
 
 .location{
@@ -78,6 +87,10 @@ nav{
     font-size: 16px;
 }
 
+.select-icon i:hover{
+    color: #73F64b;
+}
+
 nav ul{ 
     list-style: none;
     background: rgba(0, 0, 0, 0);
@@ -95,6 +108,7 @@ nav ul li a{
     text-decoration: none;
     text-align: center;
     font-size: 20px;
+    transition: all 0.2s ease-in;
 }
 
 nav ul li ul.dropdown li{
@@ -116,6 +130,12 @@ nav ul li ul.dropdown a:hover{
 
 nav ul li:hover ul.dropdown{
     display: block;
+}
+
+nav ul li a:hover{
+    /* background-color:rgba(15, 186, 43, 0.347); */
+    color: #73F64b;
+    scale: 1.1;
 }
 
 .heading{
@@ -154,11 +174,10 @@ nav ul li:hover ul.dropdown{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.divider{
-    width: 100%;
-    height: 5px;
+#tickets a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
-
 
 .top-artists{
     background-color:black;
