@@ -1,33 +1,42 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.main{
     background-color: black;
-    color: #ffffff;
+    
 }
 
-.main p{
-    font-family: 'Times New Roman', Times, serif;
+#t2{
     text-align: center;
-    font-size: 18px;
-    letter-spacing: 1px;
+    color: white;
+    margin-top: 150px;
 }
 
-#head{
-    padding-top: 200px;
-}
-
-#desc{
+#event-description{
+    text-align: center;
     padding-left: 300px;
     padding-right: 300px;
-    padding-top: 40px;
+    padding-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+ 
 }
 
-.main h1{
+button{
+    color: white;
+    font-size: 20px;
+    border-color: white;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tim-loc{
+    margin-left: 250px;
+
+}
+
+body p{
+        font-family: 'Times New Roman', Times, serif;
+}
+
+body h1{
     color: #73F64b;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -36,126 +45,97 @@
     padding-top: 5px;
 }
 
-.ticket{
-    border-radius: 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-#tickets{
-    width: 180px;
-    height: 55px;
-    border-radius: 0%;
-    letter-spacing: 2px;
-}
-
-.ticket a{
-    text-decoration: none;
-    color: #ffffff;
-}
-
-img{
-    display: flex;
-    margin: auto;
-    width: 700px;
-    padding-bottom: 50px;
-}
-
-.below{
-    background-color: black;
-    color: #ffffff;
-    padding-bottom: 100px;
-}
-
-.below h1{
-    padding-left: 300px;
+#time-loc{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 2px;
-    padding-top: 5px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 50;
+    font-stretch: 100%;
+    
 }
 
-.below p{
+#about{
+    margin-left: 250px;
+
+
+}
+
+
+#ate{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 50;
+    font-stretch: 100%;
+}
+
+#id1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 50;
+    font-stretch: 100%;
+
+}
+
+#id2{
+    margin-right: 100px;
+    text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    letter-spacing: 1px;
-    padding-left: 300px;
 }
 
-#desc1{
-    padding-right: 200px;
+#ticket{
+    margin-left: 250px;
 }
 
-.foot{
-    background-color:black;
-    padding: 70px 0;
-    line-height: 1.5;
-    font-family: "Poppins", sans-serif;
-    position: sticky;
-    top: 75px;
+#tick{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 50;
+    font-stretch: 100%;
 }
 
-.in-box{
-    max-width: 1170px;
-    background-color: black;
-    margin: auto;
+#c1{
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-bottom: 100px;
 }
 
-.row1{
-    display: flex;
-    flex-wrap: wrap;
+#c2{
+    margin-left: 20px;
+    margin-right: 100px;
+
 }
 
-.footer-col{
-    width: 25%;
-    padding: 0 15px;
+.btn1{
+    color:black;
+    background-color: white;
 }
 
-.footer-col ul{
-    list-style: none;
+#img1{
+    height: 400px;
+    width: 400px;
+   
+    /* margin-top: 60px;
+    margin-left: 33%; */
+    margin: 90px 22%;
+    /* background-repeat: no-repeat;
+    background-size: comtain; */
 }
 
-.footer-col h4{
-    font-size: 22px;
-    color: #FFFFFF;
-    margin-bottom: 35px;
-    font-weight: 500;
-    position: relative;
-}
+#venuelayout{
+        height: 500px;
+        width: 80%;
+        background-image: url('C:\Users\HP\Desktop\fee project\image\venue layout.png');
+        margin-top: 60px;
+        margin-left: 33%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+    
 
-.footer-col ul li a{
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 300;
-    color: #ffffffae;
-    display: block;
-    transition: all 0.3s ease;
-}
-
-.footer-col ul li a:hover{
-    color: #FFFFFF;
-    padding-left: 20px;
-}
-
-.footer-col .social-links a{
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-color: rgba(255,255,255,0.2);
-    margin: 5px;
-    margin-right: 0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #FFFFFF;
-    transition: all 0.5s ease;
-}
-
-.footer-col .social-links a:hover{
-    background-color: #FFFFFF;
-    color: black;
-    scale: 1.3;
 }
