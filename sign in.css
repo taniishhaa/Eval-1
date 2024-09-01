@@ -12,19 +12,18 @@ body{
 
 h2{
     color: white;
+    text-align: center;
 }
 
-p{
-    color: white;
-}
 
 .signin-form h1{
     color: white;
     line-height: 40px;
     margin-bottom: 5px;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     margin-top: 100px;
+    
 
 }
 
@@ -42,6 +41,7 @@ p{
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     margin-left: 30px;
+    border:1px solid ;
 }
 
 .img{
@@ -52,11 +52,13 @@ p{
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     align-items: center;
-    display: grid;
+    padding-left: 200px;
+  
+
 }
 
 .img img{
-    max-width: 100%;
+    max-width: 70%;
 }
 
 p{
@@ -78,7 +80,7 @@ p{
 
 .btn:hover,button:hover{
 
-    transition: 0.5 ease;
+    transition: 0.5 s;
 }
 
 a{
@@ -93,16 +95,70 @@ a{
 
 .signin-form input{
 
-    outline: none;
     margin-bottom: 15px;
     font-stretch: 16px;
     color: white;
     text-align: left;
     padding: 10px 10px;
     width: 100%;
-    display: inline-block;
-    box-sizing: border-box;
-    border: none;
     background-color: #73f64b;
 
+
 }
+
+.signin-form input:focus{
+
+    background: transparent;
+    border: 1px solid;
+}
+
+.signin-form button{
+
+    font-size: 18px;
+    color: black;
+    width: 100%;
+    border: none;
+    padding: 5px 5px;
+    font-weight: 600;
+    transition: 0.3ease;
+}
+
+p.account a{
+    color: rgb(43, 38, 181);
+
+}
+p.account a:hover{
+
+    text-decoration: underline;
+    
+}
+
+@media(max-width:736px){
+    .signin-form .main{
+
+        flex-direction: column;
+
+    }
+    
+    .signin-form form{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    img{
+
+        border-radius: 0;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        order: 2;
+    }
+    .content{
+        
+        border-radius: 0;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        order: 1;
+    }
+
+}
+
