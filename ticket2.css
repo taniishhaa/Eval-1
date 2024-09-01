@@ -1,6 +1,5 @@
 *{
     background-color: black;
-    
 }
 
 #t2{
@@ -17,6 +16,10 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
  
+}
+
+section hr{
+    width:70%;
 }
 
 button{
@@ -97,17 +100,19 @@ body h1{
     font-size: 30px;
     font-weight: 50;
     font-stretch: 100%;
+    margin-left: 250px;
 }
 
 #c1{
-    margin-left: 20px;
+    margin-left: 200px;
     margin-right: 100px;
     margin-bottom: 100px;
 }
 
 #c2{
-    margin-left: 20px;
+    margin-left: 200px;
     margin-right: 100px;
+    margin-bottom: 100px;
 
 }
 
@@ -127,15 +132,159 @@ body h1{
     background-size: comtain; */
 }
 
-#venuelayout{
-        height: 500px;
-        width: 80%;
-        background-image: url('C:\Users\HP\Desktop\fee project\image\venue layout.png');
-        margin-top: 60px;
-        margin-left: 33%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: absolute;
-    
+
+#ticket-section{
+    background: black;
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+
 
 }
+
+.container h2{
+    font-size: 45px;
+    padding-left: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    padding-top: 5px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;/
+}
+
+.col{
+    padding-left: 100px;
+    width: 15%;
+}
+
+.col h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+#tick-h{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 10px 10px;
+}
+
+.quantity-input{
+    padding: 8px;
+    color:#ffffff;
+    background-color: black;
+    border: 1px solid #ffffff;
+    margin-top: 18px;
+    
+}
+
+.checkout-button-container {
+    padding-top: 10px;
+    text-align: right; 
+}
+
+.checkout-button-container a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.checkout-button {
+    font-size: 18px;
+    background-color: black; 
+    color: white; 
+    padding: 15px 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    display: inline-block;
+    width: 150px;
+    transition: all 0.3s ease;
+    margin-top: 60px;
+}
+
+.checkout-button:hover{
+    background-color: #ffffff;
+    color: black;
+    border: black;
+}
+
+
+
+
+.foot{
+    background-color:black;
+    padding: 70px 0;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    position: sticky;
+    top: 75px;
+}
+
+.in-box{
+    max-width: 1170px;
+    background-color: black;
+    margin: auto;
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 20%;
+    padding: 0 15px;
+}
+
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col h4{
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffffae;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 5px;
+    margin-right: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+    background-color: #FFFFFF;
+    color: black;
+    scale: 1.3;
+}
+
